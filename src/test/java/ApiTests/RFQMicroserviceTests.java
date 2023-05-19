@@ -38,7 +38,7 @@ public class RFQMicroserviceTests {
         ResponseBody body = response.getBody();
         ObjectMapper om = new ObjectMapper();
         RFQ[] results = om.readValue(body.asString(), RFQ[].class);
-        Assert.assertEquals(response.getStatusCode(),400);
+        Assert.assertEquals(response.getStatusCode(),200);
         Reporter.log("RFQList get request status code is 200");
 
         Assert.assertEquals(results.length,3);
