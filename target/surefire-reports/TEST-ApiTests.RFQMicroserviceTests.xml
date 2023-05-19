@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ApiTests.RFQMicroserviceTests" time="16.65" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="user.country.format" value="TR"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\ozyur\.jdks\corretto-11.0.15\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1 test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ozyur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Users\ozyur\.jdks\corretto-11.0.15"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="user.name" value="Cihan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ozyur\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="C:\Users\ozyur\OneDrive\Desktop\Sourcing Value\RFQMicroserviceTestAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ozyur\OneDrive\Desktop\Sourcing Value\RFQMicroserviceTestAutomation"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="tr"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\ozyur\.jdks\corretto-11.0.15\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\Users\ozyur\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verifyRFQList" classname="ApiTests.RFQMicroserviceTests" time="2.197"/>
+  <testcase name="verifySpecificRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.493"/>
+  <testcase name="verifyMaterialsForSpecificRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.478"/>
+  <testcase name="verifyMaterialsForUnAvaialableRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.485"/>
+  <testcase name="verifySuppliersForSpecificRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="2.41"/>
+  <testcase name="verifySuppliersForUnAvaialableRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.439"/>
+  <testcase name="verifyCreateMaterialForRFQ" classname="ApiTests.RFQMicroserviceTests" time="1.357"/>
+  <testcase name="verifyCreateMaterialWithInvalidInputForRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.442"/>
+  <testcase name="verifyCreateMaterialForUnavailableRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.433"/>
+  <testcase name="verifyCreateSupplierForRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.417"/>
+  <testcase name="verifyCreateSupplierWithInvalidInputForRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.409"/>
+  <testcase name="verifyCreateSupplierForUnavailableRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.403"/>
+  <testcase name="verifyCreateRFQ" classname="ApiTests.RFQMicroserviceTests" time="0.403"/>
+  <testcase name="verifyCreateRFQWithInvalidInput" classname="ApiTests.RFQMicroserviceTests" time="0.407"/>
+  <testcase name="verifyUpdateRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="2.407"/>
+  <testcase name="verifyUpdateInvalidInputForRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.582"/>
+  <testcase name="verifyUpdateUnavailableRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.413"/>
+  <testcase name="verifyDeleteSpecifiqRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.405"/>
+  <testcase name="verifyDeleteUnavailableRFQByUUID" classname="ApiTests.RFQMicroserviceTests" time="0.406"/>
+</testsuite>

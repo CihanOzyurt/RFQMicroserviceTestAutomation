@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 19 21:29:32 TRT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15954 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyDeleteSpecifiqRFQByUUID()'><b>verifyDeleteSpecifiqRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateMaterialForUnavailableRFQ()'><b>verifyCreateMaterialForUnavailableRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateSupplierWithInvalidInputForRFQ()'><b>verifyCreateSupplierWithInvalidInputForRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyMaterialsForSpecificRFQByUUID()'><b>verifyMaterialsForSpecificRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateMaterialWithInvalidInputForRFQ()'><b>verifyCreateMaterialWithInvalidInputForRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyDeleteUnavailableRFQByUUID()'><b>verifyDeleteUnavailableRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyRFQList()'><b>verifyRFQList</b><br>Test class: ApiTests.RFQMicroserviceTests<br/>
+<a href="#Output-390827278" onClick='toggleBox("Output-390827278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-390827278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-390827278">
+RFQList get request status code is 200<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyUpdateRFQByUUID()'><b>verifyUpdateRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>2</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifySuppliersForUnAvaialableRFQByUUID()'><b>verifySuppliersForUnAvaialableRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyMaterialsForUnAvaialableRFQByUUID()'><b>verifyMaterialsForUnAvaialableRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateRFQWithInvalidInput()'><b>verifyCreateRFQWithInvalidInput</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateRFQ()'><b>verifyCreateRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifySuppliersForSpecificRFQByUUID()'><b>verifySuppliersForSpecificRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>2</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyUpdateUnavailableRFQByUUID()'><b>verifyUpdateUnavailableRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateSupplierForRFQ()'><b>verifyCreateSupplierForRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyUpdateInvalidInputForRFQByUUID()'><b>verifyUpdateInvalidInputForRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateSupplierForUnavailableRFQ()'><b>verifyCreateSupplierForUnavailableRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifySpecificRFQByUUID()'><b>verifySpecificRFQByUUID</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>0</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+<tr>
+<td title='ApiTests.RFQMicroserviceTests.verifyCreateMaterialForRFQ()'><b>verifyCreateMaterialForRFQ</b><br>Test class: ApiTests.RFQMicroserviceTests</td>
+<td></td>
+<td>1</td>
+<td>ApiTests.RFQMicroserviceTests@7813cb11</td></tr>
+</table><p>
+</body>
+</html>
